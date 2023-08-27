@@ -1,7 +1,7 @@
 import cv2
 
 cap = cv2.VideoCapture(0)  # webcam
-# cap = cv2.VideoCapture("video.mp4")  # file
+# cap = cv2.VideoCapture("gallery\yvideo.jpg")  # file
 
 while True:
     ret, frame = cap.read()
@@ -9,7 +9,7 @@ while True:
     # frame = cv2.flip(frame, 0) # x axis flip
     # frame = cv2.flip(frame, -1) # origin flip
     if ret == 0:
-       break
+        break
 
     cv2.imshow("Video", frame)
     if cv2.waitKey(1) & 0xFF == ord("q"):
