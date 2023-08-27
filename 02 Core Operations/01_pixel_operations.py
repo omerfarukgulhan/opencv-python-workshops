@@ -1,7 +1,7 @@
 import cv2
 import numpy
 
-file = "test_images/opencv_logo.png"
+file = "gallery\opencv_logo.png"
 img = cv2.imread(file)
 
 px = img[50, 50]

@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-file = "test_images/opencv_logo.png"
+file = "gallery\opencv_logo.png"
 img = cv2.imread(file)
 
 (B, G, R) = cv2.split(img)

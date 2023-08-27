@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-file = "test_images/plant.png"
+file = "gallery/plant.png"
 img = cv2.imread(file)
 
 corner = img[0:100, 0:250]  # [y,x]
